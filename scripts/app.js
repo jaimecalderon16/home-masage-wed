@@ -126,8 +126,36 @@ time60re.addEventListener("click", (e) => {
 
 });
 
-domiciliorelajante.addEventListener('click', (e) => tipoDeMasajesañadirclases(domiciliorelajante, visitanosrelajante))
-visitanosrelajante.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanosrelajante, domiciliorelajante))
+
+domiciliorelajante.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domiciliorelajante, visitanosrelajante );
+  if (time60re.classList.contains('text-decoration-underline')) {
+    precioactualrelajante.textContent = "170.000";
+    precioantesrelajante.textContent = "$190.000";
+  }else if (time90re.classList.contains('text-decoration-underline') ){
+    precioactualrelajante.textContent = "190.000";
+    precioantesrelajante.textContent = "$230.000";
+  }
+  else if (time120re.classList.contains('text-decoration-underline')){
+    precioactualrelajante.textContent = "270.000";
+    precioantesrelajante.textContent = "$290.000";
+  }
+  })
+
+visitanosrelajante.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanosrelajante, domiciliorelajante );
+  if (time60re.classList.contains('text-decoration-underline')) {
+    precioactualrelajante.textContent = "140.000";
+    precioantesrelajante.textContent = "$180.000";
+  }else if (time90re.classList.contains('text-decoration-underline') ){
+    precioactualrelajante.textContent = "180.000";
+    precioantesrelajante.textContent = "$200.000";
+  }
+  else if (time120re.classList.contains('text-decoration-underline')){
+    precioactualrelajante.textContent = "240.000";
+    precioantesrelajante.textContent = "$280.000";
+  }
+})
 
 
 
@@ -171,9 +199,37 @@ time60dre.addEventListener("click", () => {
 
 });
 
-domiciliodrenaje.addEventListener('click', (e) => tipoDeMasajesañadirclases(domiciliodrenaje, visitanosdrenaje))
-visitanosdrenaje.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanosdrenaje, domiciliodrenaje))
 
+
+domiciliodrenaje.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domiciliodrenaje, visitanosdrenaje );
+  if (time60dre.classList.contains('text-decoration-underline')) {
+    precioactualdrenaje.textContent = "165.000";
+    precioantesdrenaje.textContent = "$190.000";
+  }else if (time90dre.classList.contains('text-decoration-underline') ){
+    precioactualdrenaje.textContent = "199.000";
+    precioantesdrenaje.textContent = "$230.000";
+  }
+  else if (time120dre.classList.contains('text-decoration-underline')){
+    precioactualdrenaje.textContent = "278.000";
+    precioantesdrenaje.textContent = "$290.000";
+  }
+  })
+
+visitanosdrenaje.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanosdrenaje, domiciliodrenaje );
+  if (time60dre.classList.contains('text-decoration-underline')) {
+    precioactualdrenaje.textContent = "145.000";
+    precioantesdrenaje.textContent = "$180.000";
+  }else if (time90dre.classList.contains('text-decoration-underline') ){
+    precioactualdrenaje.textContent = "180.000";
+    precioantesdrenaje.textContent = "$199.000";
+  }
+  else if (time120dre.classList.contains('text-decoration-underline')){
+    precioactualdrenaje.textContent = "250.000";
+    precioantesdrenaje.textContent = "$280.000";
+  }
+})
 
 
 time90de.addEventListener("click", () => {
@@ -183,7 +239,7 @@ time90de.addEventListener("click", () => {
     precioactualdeportivo.textContent = "220.000";
     precioantesdeportivo.textContent = "$250.000";
   }else{
-    precioactualdeportivo.textContent = "200.000";
+    precioactualdeportivo.textContent = "199.000";
     precioantesdeportivo.textContent = "$210.000";
   }
 
@@ -215,10 +271,35 @@ time60de.addEventListener("click", () => {
 
 });
 
-domiciliodeportivo.addEventListener('click', (e) => tipoDeMasajesañadirclases(domiciliodeportivo, visitanosdeportivo))
-visitanosdeportivo.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanosdeportivo, domiciliodeportivo))
+domiciliodeportivo.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domiciliodeportivo, visitanosdeportivo );
+  if (time60de.classList.contains('text-decoration-underline')) {
+    precioactualdeportivo.textContent = "170.000";
+    precioantesdeportivo.textContent = "$197.000";
+  }else if (time90de.classList.contains('text-decoration-underline') ){
+    precioactualdeportivo.textContent = "220.000";
+    precioantesdeportivo.textContent = "$250.000";
+  }
+  else if (time120de.classList.contains('text-decoration-underline')){
+    precioactualdeportivo.textContent = "280.000";
+    precioantesdeportivo.textContent = "$299.000";
+  }
+  })
 
-
+visitanosdeportivo.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanosdeportivo, domiciliodeportivo );
+  if (time60de.classList.contains('text-decoration-underline')) {
+    precioactualdeportivo.textContent = "150.000";
+    precioantesdeportivo.textContent = "$180.000";
+  }else if (time90de.classList.contains('text-decoration-underline') ){
+    precioactualdeportivo.textContent = "199.000";
+    precioantesdeportivo.textContent = "$210.000";
+  }
+  else if (time120de.classList.contains('text-decoration-underline')){
+    precioactualdeportivo.textContent = "260.000";
+    precioantesdeportivo.textContent = "$280.000";
+  }
+})
 
 time90des.addEventListener("click", () => {
   console.log("click")
@@ -227,7 +308,7 @@ time90des.addEventListener("click", () => {
     precioactualdescon.textContent = "225.000";
     precioantesdescon.textContent = "$250.000";
   }else{
-    precioactualdescon.textContent = "200.000";
+    precioactualdescon.textContent = "198.000";
     precioantesdescon.textContent = "$210.000";
   }
 
@@ -259,9 +340,37 @@ time60des.addEventListener("click", () => {
 
 });
 
-domiciliodescon.addEventListener('click', (e) => tipoDeMasajesañadirclases(domiciliodescon, visitanosdescon))
-visitanosdescon.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanosdescon, domiciliodescon))
 
+
+domiciliodescon.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domiciliodescon, visitanosdescon );
+  if (time60des.classList.contains('text-decoration-underline')) {
+    precioactualdescon.textContent = "170.000";
+    precioantesdescon.textContent = "$198.000";
+  }else if (time90des.classList.contains('text-decoration-underline') ){
+    precioactualdescon.textContent = "225.000";
+    precioantesdescon.textContent = "$250.000";
+  }
+  else if (time120des.classList.contains('text-decoration-underline')){
+    precioactualdescon.textContent = "270.000";
+    precioantesdescon.textContent = "$298.000";
+  }
+  })
+
+visitanosdescon.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanosdescon, domiciliodescon );
+  if (time60des.classList.contains('text-decoration-underline')) {
+    precioactualdescon.textContent = "150.000";
+    precioantesdescon.textContent = "$180.000";
+  }else if (time90des.classList.contains('text-decoration-underline') ){
+    precioactualdescon.textContent = "198.000";
+    precioantesdescon.textContent = "$210.000";
+  }
+  else if (time120des.classList.contains('text-decoration-underline')){
+    precioactualdescon.textContent = "260.000";
+    precioantesdescon.textContent = "$280.000";
+  }
+})
 
 time90pre.addEventListener("click", () => {
   console.log("click")
@@ -302,9 +411,36 @@ time60pre.addEventListener("click", () => {
 
 });
 
-domicilioprenatal.addEventListener('click', (e) => tipoDeMasajesañadirclases(domicilioprenatal, visitanosprenatal))
-visitanosprenatal.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanosprenatal, domicilioprenatal))
 
+domicilioprenatal.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domicilioprenatal, visitanosprenatal );
+  if (time60pre.classList.contains('text-decoration-underline')) {
+    precioactualprenatal.textContent = "176.000";
+    precioantesprenatal.textContent = "$190.000";
+  }else if (time90pre.classList.contains('text-decoration-underline') ){
+    precioactualprenatal.textContent = "199.000";
+    precioantesprenatal.textContent = "$220.000";
+  }
+  else if (time120pre.classList.contains('text-decoration-underline')){
+    precioactualdescon.textContent = "270.000";
+    precioantesdescon.textContent = "$298.000";
+  }
+  })
+
+visitanosprenatal.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanosprenatal, domicilioprenatal );
+  if (time60pre.classList.contains('text-decoration-underline')) {
+    precioactualprenatal.textContent = "150.000";
+    precioantesprenatal.textContent = "$160.000";
+  }else if (time90pre.classList.contains('text-decoration-underline') ){
+    precioactualprenatal.textContent = "190.000";
+    precioantesprenatal.textContent = "$210.000";
+  }
+  else if (time120pre.classList.contains('text-decoration-underline')){
+    precioactualprenatal.textContent = "250.000";
+    precioantesprenatal.textContent = "$270.000";
+  }
+})
 
 time90pos.addEventListener("click", () => {
   console.log("click")
@@ -345,15 +481,42 @@ time60pos.addEventListener("click", () => {
 
 });
 
-domicilioposnatal.addEventListener('click', (e) => tipoDeMasajesañadirclases(domicilioposnatal, visitanosposnatal))
-visitanosposnatal.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanosposnatal, domicilioposnatal))
 
+domicilioposnatal.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domicilioposnatal, visitanosposnatal );
+  if (time60pos.classList.contains('text-decoration-underline')) {
+    precioactualposnatal.textContent = "170.000";
+    precioantesposnatal.textContent = "$190.000";
+  }else if (time90pos.classList.contains('text-decoration-underline') ){
+    precioactualposnatal.textContent = "199.000";
+    precioantesposnatal.textContent = "$230.000";
+  }
+  else if (time120pos.classList.contains('text-decoration-underline')){
+    precioactualposnatal.textContent = "270.000";
+    precioantesposnatal.textContent = "$285.000";
+  }
+  })
+
+visitanosposnatal.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanosposnatal, domicilioposnatal );
+  if (time60pos.classList.contains('text-decoration-underline')) {
+    precioactualposnatal.textContent = "140.000";
+    precioantesposnatal.textContent = "$160.000";
+  }else if (time90pos.classList.contains('text-decoration-underline') ){
+    precioactualposnatal.textContent = "180.000";
+    precioantesposnatal.textContent = "$200.000";
+  }
+  else if (time120pos.classList.contains('text-decoration-underline')){
+    precioactualposnatal.textContent = "250.000";
+    precioantesposnatal.textContent = "$270.000";
+  }
+})
 
 time90pi.addEventListener("click", () => {
   console.log("click")
   preciosporminutos(time90pi, time60pi, time120pi);
   if (domiciliopiedras.classList.contains('text-decoration-underline')) {
-    precioactualpiedras.textContent = "250.000";
+    precioactualpiedras.textContent = "249.000";
     precioantespiedras.textContent = "$290.000";
   }else{
     precioactualpiedras.textContent = "220.000";
@@ -388,9 +551,36 @@ time60pi.addEventListener("click", () => {
 
 });
 
-domiciliopiedras.addEventListener('click', (e) => tipoDeMasajesañadirclases(domiciliopiedras, visitanospiedras))
-visitanospiedras.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanospiedras, domiciliopiedras))
 
+domiciliopiedras.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domiciliopiedras, visitanospiedras );
+  if (time60pi.classList.contains('text-decoration-underline')) {
+    precioactualpiedras.textContent = "185.000";
+    precioantespiedras.textContent = "$195.000";
+  }else if (time90pi.classList.contains('text-decoration-underline') ){
+    precioactualpiedras.textContent = "249.000";
+    precioantespiedras.textContent = "$290.000";
+  }
+  else if (time120pi.classList.contains('text-decoration-underline')){
+    precioactualpiedras.textContent = "279.000";
+    precioantespiedras.textContent = "$298.000";
+  }
+  })
+
+visitanospiedras.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanospiedras, domiciliopiedras );
+  if (time60pi.classList.contains('text-decoration-underline')) {
+    precioactualpiedras.textContent = "165.000";
+    precioantespiedras.textContent = "$185.000";
+  }else if (time90pi.classList.contains('text-decoration-underline') ){
+    precioactualpiedras.textContent = "220.000";
+    precioantespiedras.textContent = "$230.000";
+  }
+  else if (time120pi.classList.contains('text-decoration-underline')){
+    precioactualpiedras.textContent = "260.000";
+    precioantespiedras.textContent = "$270.000";
+  }
+})
 
 time90pies.addEventListener("click", () => {
   console.log("click")
@@ -431,6 +621,33 @@ time60pies.addEventListener("click", () => {
  
 });
 
-domiciliopies.addEventListener('click', (e) => tipoDeMasajesañadirclases(domiciliopies, visitanospies))
-visitanospies.addEventListener('click', (e) => tipoDeMasajesañadirclases( visitanospies, domiciliopies))
 
+domiciliopies.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases( domiciliopies, visitanospies );
+  if (time60pies.classList.contains('text-decoration-underline')) {
+    precioactualpies.textContent = "160.000";
+    precioantespies.textContent = "$189.000";
+  }else if (time90pies.classList.contains('text-decoration-underline') ){
+    precioactualpies.textContent = "230.000";
+    precioantespies.textContent = "$260.000";
+  }
+  else if (time120pies.classList.contains('text-decoration-underline')){
+    precioactualpies.textContent = "270.000";
+    precioantespies.textContent = "$298.000";
+  }
+  })
+
+visitanospies.addEventListener('click', (e) => {
+  tipoDeMasajesañadirclases(visitanospies, domiciliopies );
+  if (time60pies.classList.contains('text-decoration-underline')) {
+    precioactualpies.textContent = "140.000";
+    precioantespies.textContent = "$140.000";
+  }else if (time90pies.classList.contains('text-decoration-underline') ){
+    precioactualpies.textContent = "190.000";
+    precioantespies.textContent = "$200.000";
+  }
+  else if (time120pies.classList.contains('text-decoration-underline')){
+    precioactualpies.textContent = "250.000";
+    precioantespies.textContent = "$260.000";
+  }
+})
