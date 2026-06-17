@@ -1,93 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Páginas principales ES -->
   <url>
     <loc>https://homemasaje.com/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/about/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/services/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/contact/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://homemasaje.com/medellin/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas principales EN -->
+  <url>
     <loc>https://homemasaje.com/en/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/en/about/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/en/services/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://homemasaje.com/en/blog/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/en/contact/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://homemasaje.com/en/medellin/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog ES -->
+  <url>
     <loc>https://homemasaje.com/blog/masaje-deportivo/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-02-18</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-personalizado/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-02-18</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-relajante/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-02-18</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-terapeutico/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-02-18</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-sueco/</loc>
-    <lastmod>2024-02-18T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-02-18</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-prenatal/</loc>
-    <lastmod>2024-10-26T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-10-26</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-con-venstosas/</loc>
-    <lastmod>2024-10-26T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-10-26</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://homemasaje.com/blog/masaje-con-piedras-volcanicas/</loc>
-    <lastmod>2024-10-26T18:00:00-05:00</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2024-10-26</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>
